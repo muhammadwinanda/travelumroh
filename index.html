@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project Travel Umroh</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/kaaba.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="/css/custom.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/8742c79147.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">PT. Berkah Banjar</a></li>
+                <li class="sidebar-nav-item"><a href="#header">Beranda</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Layanan</a></li>
+                <li class="sidebar-nav-item"><a href="#filter">Cek Layanan</a></li>
+                <li class="sidebar-nav-item"><a href="#brosur">Brosur</a></li>
+                <li class="sidebar-nav-item"><a href="#testi">Testimonial</a></li>
+                <li class="sidebar-nav-item"><a href="#about">Tentang Kami</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header id="header" class="container-fluid position-relative">
+            <div class="newSlider">
+                <img src="/assets/custom/header/newHeader-1.jpg" alt="poster-1">
+            </div>
+            <div class="newSlider">
+                <img src="/assets/custom/header/newHeader-2.jpg" alt="poster-2">
+            </div>
+            
+            <div class="button-container position-absolute bottom-50 start-50 translate-middle-x d-flex justify-content-between w-100 p-2" style="z-index: 1;">
+                <button id="prevBtn" type="button" class="btn btn-dark"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="nextBtn" type="button" class="btn btn-dark"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </header>
+
+        <!-- Services-->
+        <section class="content-section bg-light text-dark text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Layanan</h3>
+                    <h2 class="mb-5 fs-1">Kami Siap Memberikan Yang Terbaik</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-money-bill"></i></span>
+                        <h4><strong>Harga Terbaik</strong></h4>
+                        <p class="mb-0">Kami berkomitmen untuk memberikan nilai terbaik untuk setiap perjalanan Umrah. Harga yang kompetitif tanpa mengorbankan kualitas.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <h4><strong>Pemesanan Mudah</strong></h4>
+                        <p class="mb-0">Pemesanan paket Umrah serta komponennya dengan mudah hingga transaksi anda selesai.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-people-group"></i></span>
+                        <h4><strong>Koneksi</strong></h4>
+                        <p class="mb-0">
+                            Kami memiliki jaringan teman dan mitra di negara Saudi Arabia, siap membantu Anda merencanakan perjalanan dan ibadah yang tak terlupakan.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <h4><strong>Terpercaya</strong></h4>
+                        <p class="mb-0">Kami merupakan perusahaan travel resmi yang menjunjung tinggi amanah dan kepercayaan konsumen sebagai tanggung jawab kami dalam melayani konsumen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="pembungkus" style="background-image: url('/assets/custom/kabah2.jpg');">
+             <!-- Callout-->
+            <section class="py-5" id="filter">
+                <div class="container px-4 text-center">
+                    <ul class="nav nav-tabs" id="myTabs">
+                        <li class="nav-item me-1">
+                            <a class="btn btn-secondary p-3 active" data-toggle="tab" href="#tab1">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <span>Umroh</span>
+                            </a>
+                        </li>
+                        <li class="nav-item me-1">
+                            <a class="btn btn-secondary p-3" data-toggle="tab" href="#tab2">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <span>Paket Haji</span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content bg-light">
+        
+                        <div class="tab-pane active pb-4" id="tab1">
+                            <form action="#" method="get">
+                                <div class="form-title p-3 text-start"><h5>Cari Paket Umroh Terbaik</h5></div>
+                                <div class="row mx-0">
+                                    <div class="col-sm-11">
+                                        <div class="row">
+                                            <div class="col-sm-3 col-md-6 col-lg-3">
+                                                <h6 class="text-start">Keberangkatan</h6>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>- Data Sementara -</option>
+                                                    <option value="1">Januari 2024</option>
+                                                    <option value="2">Pebruari 2024</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 col-md-6 col-lg-3">
+                                                <h6 class="text-start">Paket Pilihan</h6>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>- Semua Data -</option>
+                                                    <option value="1">Paket Umroh</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 col-md-6 col-lg-3">
+                                                <h6 class="text-start">Maskapai</h6>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>- Semua Data -</option>
+                                                    <option value="1">Garuda Indonesia (GA)</option>
+                                                    <option value="2">Lion Air (JT)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3 col-md-6 col-lg-3">
+                                                <h6 class="text-start">Bandara Keberangkatan</h6>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>- Semua Data -</option>
+                                                    <option value="1">Syamsudin Noor International Airport (BDJ)</option>
+                                                    <option value="2">Juanda International Airport (SUB)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1 d-sm-flex d-block align-items-end mt-3 mt-sm-0">
+                                        <button type="submit" class="btn btn-info">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane py-4" id="tab2">
+                            <h5>Maaf sementara belum ada layanan</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio-->
+            <section class="content-section" id="brosur">
+                <div class="container px-4 px-lg-5">
+                    <div class="content-section-heading text-center d-flex justify-content-center">
+                        <h2 class="mb-5 p-4">Daftar Paket Terbaru</h2>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" href="#!">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">Promo - 1</div>
+                                        <p class="mb-0">Percobaan Iklan Pertama</p>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="/assets/custom/promo/promo-1.jpg" alt="promo 1" />
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" href="#!">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">Promo - 2</div>
+                                        <p class="mb-0">Percobaan Iklan Kedua</p>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="/assets/custom/promo/promo-2.jpg" alt="promo 2" />
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" href="#!">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">Promo - 3</div>
+                                        <p class="mb-0">Percobaan Iklan Ketiga</p>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="/assets/custom/promo/promo-3.jpg" alt="promo 3" />
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" href="#!">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">Promo - 4</div>
+                                        <p class="mb-0">Percobaan Iklan Keempat</p>
+                                    </div>
+                                </div>
+                                <img class="img-fluid" src="/assets/custom/promo/promo-4.jpg" alt="promo 4" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <!-- Testimoni-->
+        <section class="content-section-testimoni bg-primary text-white" id="testi">
+        
+            <div class="slider-container">
+                <h2 class="mb-4 text-center">Testimonial</h2>
+
+                <div class="grupTesti">
+                  <ul>
+                    <li><p class="fs-3">Judul 1</p></li>
+                    <li><p class="fs-4 percobaan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi dolore corporis assumenda? Quis exercitationem magnam alias ipsum quidem corporis nisi. Exercitationem numquam quasi debitis quas non nobis corporis commodi.</p></li>
+                    <li><p class="fs-5">nama - 01/01/2024</p></li>
+                  </ul>
+                </div>
+              
+                <div class="grupTesti">
+                  <ul>
+                    <li><p class="fs-3">Judul 2</p></li>
+                    <li><p class="fs-4 percobaan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi dolore corporis assumenda? Quis exercitationem magnam alias ipsum quidem corporis nisi. Exercitationem numquam quasi debitis quas non nobis corporis commodi.</p></li>
+                    <li><p class="fs-5">nama - 01/02/2024</p></li>
+                  </ul>
+                </div>
+              
+                <div class="grupTesti">
+                  <ul>
+                    <li><p class="fs-3">Judul 3</p></li>
+                    <li><p class="fs-4 percobaan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sequi dolore corporis assumenda? Quis exercitationem magnam alias ipsum quidem corporis nisi. Exercitationem numquam quasi debitis quas non nobis corporis commodi.</p></li>
+                    <li><p class="fs-5">nama - 01/03/2024</p></li>
+                  </ul>
+                </div>
+              
+            </div>
+
+        </section>
+        <!-- Map-->
+        <div class="map" id="map">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;sll=26.0352856,43.4741957,7.09z&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <!-- <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small> -->
+        </div>
+
+         <!-- About-->
+         <section class="py-5" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase mb-4">Tim Pendukung</h2>
+                    <h3 class="section-subheading text-muted mb-5">PT. Berkah Banjar</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="/assets/custom/about/woman.png" alt="Owner" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><u>Hj. Nurul Mufidah</u></h4>
+                                <h4 class="subheading">Owner / Direktur</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Tugas saya bertanggung jawab atas kebijakan dan pengelolaan keseluruhan bisnis juga mengambil keputusan strategis dan menentukan arah travel ini.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="/assets/custom/about/konsultan.png" alt="konsultan" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><u>Muhammad Winanda</u></h4>
+                                <h4 class="subheading">Konsultan</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sebagai konsultan travel umroh tugas saya mengatur manajemen, pemberian hak-hak konsumen pada pelayanan dan kualitas jasa serta menyiapkan pada aspek spritual secara syariah Islam</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="/assets/custom/about/man.png" alt="pemandu di Madinah" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Yasir Ibrahim Alhejaili</h4>
+                                <h4 class="subheading">Pemandu di Kota Madinah</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sebagai warna negara Saudi Arabia saya dan rekan tim di kota Madinah siap mendampingi dan mempersiapkan para jamaah dalam kegiatan ibadah, ziarah, akomodasi kendaraan serta konsumsi dan sentral oleh-oleh</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="/assets/custom/about/man.png" alt="pemandu di Mekkah" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Amro Ibrahim Wasel Alhejaili</h4>
+                                <h4 class="subheading">Pemandu di Kota Mekkah</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sebagai warna negara Saudi Arabia yang bermukim di kota Mekkah, saya dan rekan tim siap mendampingi dan mempersiapkan para jamaah dalam kegiatan ibadah, ziarah, akomodasi kendaraan serta konsumsi dan sentral oleh-oleh</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                <!-- Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story! -->
+                                <br>
+                                logo perusahaan
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/winanda_m/"><i class="icon-social-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="mailto:muhammadwinanda94@gmail.com"><i class="icon-social-google"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://wa.me/6282255670080"><i class="icon-call-in"></i></a>
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-sm-4 text-start mb-4 mb-sm-0">
+                        <h6>Informasi Kantor</h6>
+                        <p>PT Berkah Banjar</p>
+                        <table>
+                            <tr>
+                                <td class="pe-4"><i class="fa-regular fa-building fa-xl"></i></td>
+                                <td>Jalan Martapura Lama RT : 02 RW : 00 Kelurahan Telok Selong Kec. Martapura Barat Kab. Banjar Provinsi Kalimantan Selatan</td>
+                            </tr>
+                            <tr>
+                                <td class="pe-4"><i class="fa-regular fa-building fa-xl"></i></td>
+                                <td>Jalan Abadi 3 RT : 06 RW : 07 Kelurahan Guntung Manggis Kec. Landasan Ulin Kota Banjarbaru Provinsi Kalimantan Selatan</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-sm-4 text-start mb-4 mb-sm-0"><h6>Informasi</h6>
+                        <div id="informasi">
+                            <p>Tentang Kami</p>
+                            <p>Metode Pembayaran</p>
+                            <p>Testimoni</p>
+                            <p>Syarat dan Ketentuan</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-start mb-4 mb-sm-0">
+                        <h6>Berita Tentang Kami</h6>
+
+                        <form action="" method="post">
+                            <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Dapatkan Informasi Terbaru Dari Kami</label>
+
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Email Anda">
+                            </div>
+                            <button type="submit" class="btn btn-info"><i class="fa-regular fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+               
+                <p class="text-muted small mb-0 my-3">Developer &copy; Muhammad Winanda</p>
+            </div>
+        </footer>
+
+        <!-- Footer -->
+
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <!-- Sertakan jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="/js/custom.js"></script>
+    </body>
+</html>
